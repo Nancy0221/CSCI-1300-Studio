@@ -1,0 +1,60 @@
+#logoBar {
+  width: 30vw;
+  height: 100vh;
+  background: beige;
+}
+#siteLogo {
+  width: 100%;
+}
+body {
+  display: flex;
+}
+#staffGallery {
+  width: 70vw;
+  display: inherit;
+  background: beige;
+}
+.galleryImage {
+  width: 100%;
+  height: auto;
+  height: 300px;
+}
+
+h1 {
+  font-style: italic;
+  color: hotpink;
+  /* font-size: clamp(36px, 10vv, 72px); */
+}
+
+h3 {
+  color: blueviolet;
+  font-style: italic;
+  /* font-size: clamp(24px, 10vv, 60px); */
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: yellow;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  #logoBar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 20px;
+  }
+}
